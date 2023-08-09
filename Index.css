@@ -1,0 +1,263 @@
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: gray;
+}
+
+.hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+h3{
+    color: rgb(15, 130, 69);
+}
+
+h3:hover{
+    color: aqua;
+    background: linear-gradient(to right, pink,red);
+}
+
+.radio-container{
+    position: relative;
+    border: groove;
+    border-radius: 3px;
+    width: 400px;
+    height: 80px;
+    margin-left: 560px;
+    margin-top: -80px;
+}
+
+.radio-container:hover{
+    box-shadow: 0px 0px 0px 1px rgb(30, 197, 200);
+    background-color: rgb(158, 231, 158);
+}
+
+.radio-container input[type="radio"]{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    height: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.radio-container label{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.radio-container label:nth-of-type(2){
+    top: 40px;
+}
+
+.radio-container label:nth-of-type(3){
+    top: 30px;
+    left: 300px;
+}
+
+.radio-container2{
+    position: relative;
+    border: groove;
+    border-radius: 3px;
+    width: 400px;
+    height: 190px;
+    margin-left: 560px;
+    margin-top: 20px;
+}
+
+.radio-container2:hover{
+    box-shadow: 0px 0px 0px 1px rgb(30, 197, 200);
+    background-color: rgb(158, 231, 158);
+}
+
+.radio-container2 input[type="radio"]{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    height: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.radio-container2 label{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.radio-container2 label:nth-of-type(2){
+    top: 40px;
+}
+
+.radio-container2 label:nth-of-type(3){
+    top: 40px;
+    left: 180px;
+    color: gray;
+    text-decoration:line-through;
+    font-size: smaller;
+}
+
+.radio-container2 label:nth-of-type(4){
+    top: 20px;
+    left: 280px;
+    color: rgb(15, 130, 69);
+}
+
+.radio-container2 label:nth-of-type(5){
+    top: 40px;
+    left: 300px;
+}
+
+.radio-container2 label:nth-of-type(6){
+    top: 80px;
+    font-size:smaller;
+}
+
+.radio-container2 label:nth-of-type(7){
+    top: 80px;
+    left: 140px;
+    font-size: smaller;
+}
+
+.radio-container2 label:nth-of-type(8){
+    top: 110px;
+    left: 30px;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#select1{
+    position: absolute;
+    height: 25px;
+    width: 75px;
+    left: 25px;
+    cursor:pointer;
+}
+
+#select2{
+    position: absolute;
+    height: 25px;
+    width: 75px;
+    left: 110px;
+    cursor: pointer;
+}
+
+.radio-container2 label:nth-of-type(9){
+    top: 150px;
+    left: 30px;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.radio-container3{
+    position: relative;
+    border: groove;
+    border-radius: 3px;
+    width: 400px;
+    height: 80px;
+    margin-left: 560px;
+    margin-top: 20px;
+}
+
+.radio-container3:hover{
+    box-shadow: 0px 0px 0px 1px rgb(30, 197, 200);
+    background-color: rgb(158, 231, 158);
+}
+
+.radio-container3 input[type="radio"]{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    height: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.radio-container3 label{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.radio-container3 label:nth-of-type(2){
+    top: 40px;
+}
+
+.radio-container3 label:nth-of-type(3){
+    top: 30px;
+    left: 300px;
+}
+
+.radio-container4{
+    position: relative;
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+    height: 80px;
+    margin-left: 560px;
+    margin-top: -5px;
+}
+
+.radio-container4 label{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    color: rgb(98, 154, 98);
+}
+
+.radio-container4 label:nth-of-type(2){
+    top: 35px;
+    left: 265px;
+    color: black;
+}
+
+.radio-container5 button{
+    position: relative;
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+    height: 60px;
+    margin-left: 560px;
+    margin-top: 0px;
+    background-color: rgb(54, 131, 54);
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.radio-container5 button:hover{
+    background: linear-gradient(to right,rgb(201, 28, 210),rgb(214, 78, 101));
+    color: rgb(35, 214, 35);
+    border: groove red;
+}
+
+.radio-container6{
+    position: relative;
+    border: none;
+    border-radius: 0px;
+    width: 400px;
+    height: 80px;
+    margin-left: 810px;
+    margin-top: 10px;
+}
